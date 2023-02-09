@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --ff-heading: 'Staatliches', cursive;
+    --ff-texting:  'Palanquin', sans-serif;
+
+    --fc-head: hsla(14, 78%,64%, 1);
+    --fc-primary: hsl(0 , 0%, 100% );
+    --fc-secondary: hsla(232, 17%, 35% ,1);
+    --fc-terciary: hsla(274, 84%, 12%, 1);
+    --fc-quadriary: hsla(274, 84%, 12%, 1);
+    --fs-heading: 2rem;
+    --fs-heading-secundary: 2.4rem;
+    --fs-heading-terciary: 4rem;
+    --bc-primary: hsla(218, 17%, 62%,1 );
+    --bc-secundary: hsla(275, 18%, 79%,1);
+    --bc-terciary: hsla(233, 100%, 97%, 1);
+    --bc-quadriary: hsla(312, 91%, 96%, 1);
+}
+
+
+.top {
+    align-items: center;
+}
+
+.top h1 {
+    font-size: var(--fs-heading-terciary);
+
+    letter-spacing: 0.05rem;
+
+    font-family: var(--ff-heading);
+
+    color: var(--fc-head);
+
+    font-weight: 400;
+
+}
+
+.top p {
+    opacity: 0;
+    font-size: var(--fs-heading-secundary);
+}
+
+main p {
+    font-size: var(--fs-heading);
+
+    font-family: var(--ff-texting) ;
+
+    color: var(--fc-terciary);
+
+    font-weight: 400;
+
+    line-height: 1.5rem;
+}
+
+main .card h2 {
+    font-family: var(--ff-heading);
+
+    font-weight: 400;
+
+    font-size: var(--fs-heading);
+
+    line-height: 3.4rem;
+}
